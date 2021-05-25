@@ -1,0 +1,18 @@
+.img{
+    width: 20px;
+    height: 20px;
+}
+.detailpage{
+    background-color: rgb(197, 182, 49);
+    color: blue;
+}
+.small_img{
+    display: flex;
+    flex-direction: row;
+}
+.other{
+    background-color: burlywood;
+}
+h3{
+    color: aquamarine;
+}

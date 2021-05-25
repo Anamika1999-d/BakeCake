@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.item-page{
+    margin: 14px 20px ;
+    background-color: rgb(224, 237, 255);
+    border-style:outset;
+    border-radius: 9px;
+}
+.headline{
+    margin:2px;
+    font-size: 15px;
+    padding: 12px;
+    text-align: right;
+    
+    /* border: solid; */
+    border-bottom:rgb(120, 121, 120) solid;
+}
+.topic{
+    display: flex;
+    flex-direction: row;
+}
+.totalproducts{
+    margin: 12px;
+    padding:12px;
+    background-color: rgb(250, 251, 252);
+    border-style:outset;
+    border-radius: 9px;
+    width: 50%;
+}
+.items{
+    display: flex;
+    flex-direction: row;
+}
+.item{
+    margin: 12px;
+    padding:12px;
+    background-color: rgb(250, 251, 252);
+    border-style:outset;
+    border-radius: 9px;
+    width: 100%;
+}
+.itens-list{
+    margin: 12px;
+    padding:12px;
+    background-color: rgb(226, 253, 229);
+    border-style:outset;
+    border-radius: 9px;
+    
+}

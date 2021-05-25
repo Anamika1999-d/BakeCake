@@ -1,0 +1,10 @@
+.wishlist{
+    margin: 20px 30px;
+    background: aquamarine;
+    background-image: linear-gradient(to right, #0f577d, #026196, #106aae, #2d72c6, #4d79dd);
+}
+.item{
+    margin: 12px;
+    border-bottom: rgb(92, 91, 91) solid 2px;
+    border-radius: 5px;
+}

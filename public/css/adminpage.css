@@ -1,0 +1,163 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+/* The sidebar menu */
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 230px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: rgb(43, 42, 42); /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding:20px 10px;
+    
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+      margin: 5px;
+      padding: 8px 10px 8px 16px;
+      text-decoration: none!important ;
+      font-size: 20px;
+      color: #d4d1d1;
+      display: block;
+      border-bottom: 2px rgb(143, 143, 142) solid;
+      border-radius: 5px;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+    background-color: rgb(117, 117, 117);
+
+  }
+  
+  /* Style page content */
+  .main {
+    margin-right: 0 !important;
+    margin-left: 220px;
+    padding: 0px 10px;
+    
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  .navbar{
+    position: relative;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* align-items: center; */
+    border-radius: 0 !important;
+    justify-content: space-between;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    margin:0 !important;
+    background-color: rgb(43, 42, 42) !important;
+    color: #f1f1f1 !important;
+  }
+  .search-box{
+    padding:20px 50px 18px 15px !important;
+    font-size: 16px !important;
+    background-color: rgb(238, 241, 240) !important;
+  }
+  .search-button{
+    padding:8px 19px!important;
+    font-size: 14px !important;
+    color: rgb(248, 246, 246)!important;
+  }
+  .user{
+    color: white !important;
+    float: right !important;
+    font-size: 16px !important;
+    font-weight: bolder !important;
+  }
+  .dropdown-option{
+    color: rgb(11, 21, 68) !important;
+    background-color: rgb(202, 210, 243);
+    float: right !important;
+    font-size: 16px !important;
+    font-weight: bolder !important;
+  }
+  .dropdown-menu{
+    background-color: rgb(202, 210, 243) !important;
+  }
+  .notification{
+    color: white !important;
+    float: right !important;
+    font-size: 16px !important;
+    font-weight: bolder !important;
+  }
+  .dashboard-page{
+    margin: 12px ;
+    padding: 17px;
+    background-color: rgb(218, 219, 219);
+    border-style: outset;
+  }
+  .left-bar{
+    text-align: right;
+    border-bottom: rgb(141, 141, 139) solid;
+  }
+  .dash-board{
+    display: flex;
+    flex-direction: row;
+    color: lightcyan;
+    
+    /* border-style:groove; */
+    
+  }
+  .icon-order{
+    font-size: 50px;
+    color: lightcyan;
+  }
+
+  .weekly-orders{
+    margin: 0 12px 12px 12px;
+    padding:75px 15px 15px 15px;
+    border-radius: 9px;
+    background-color:rgb(112, 38, 28);
+    font-size: 30px;
+    width: 30%;
+    text-align: center;
+    font-weight: bold;
+  }
+  .weekly-sales{
+    margin: 0 12px 12px 12px;
+
+    padding: 75px 15px 15px 15px;
+    border-radius: 9px;
+    background-color:rgb(31, 133, 39);
+    font-size: 30px;
+    font-weight: bold;
+    width: 30%;
+    text-align: center;
+  }
+  .column{
+    display: flex;
+    flex-direction: column !important;
+  }
+  .totalEmployees{
+    margin: 0 12px 12px 12px;
+    padding: 15px;
+    border-radius: 9px;
+    background-color:rgb(29, 76, 148);
+    font-size: 30px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+  }
+  .todayOrder{
+    margin: 0 12px 12px 12px;
+    padding: 15px;
+    border-radius: 9px;
+    background-color:rgb(196, 19, 181);
+    font-size: 30px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+  }

@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.add-product-page{
+    margin:12px;
+    padding: 12px;
+    background-color: rgb(245, 233, 179);
+    color: rgb(6, 29, 73);
+    border-style:outset;
+    border-radius: 7px;
+}
+a{
+
+    text-decoration: none !important;
+}
+.headline{
+    font-size: 14px;
+    border-bottom: rgb(141, 140, 140) solid;
+}
+.headline h4{
+    text-align: right;
+}
+.details{
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(71, 22, 90);
+    width: 80%;
+    background-color: rgb(220, 224, 250);
+    border-style: outset;
+    margin: 6px;
+    padding: 10px;
+    border-radius: 9px;
+}
+input{
+    margin-right: 50px;
+    margin-left: 8px;
+    padding: 4px;
+    border-radius: 5px;
+    background-color: rgb(224, 234, 247);
+    
+}
+.images{
+    background-color: rgb(224, 234, 247);
+    width: 100%;
+    border-style: outset;
+    margin: 6px;
+    padding: 10px;
+    border-radius: 9px;
+    font-size: 18px;
+
+}
+.product{
+    display: flex;
+    flex-direction: row;
+}
+.save{
+    text-align: center;
+    font-size: 19px;
+}
